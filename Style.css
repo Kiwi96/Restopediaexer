@@ -1,0 +1,735 @@
+
+.nave-bar-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  max-height: 50px;
+  padding: 40px; 
+  padding-left: 0%;
+}
+
+
+.logo-main {
+  margin-right: 5px; /* Espaciado entre el logotipo y otros elementos*/
+  align-items: left;
+  max-height: 250px;
+  padding-left: 0px;
+  padding-right: 2px;
+  padding-top: 10px;
+}
+
+/* Estilo para el contenedor de búsqueda */
+.search-container {
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+
+/* Estilo para el campo de entrada de búsqueda con ícono de fondo */
+.search-input {
+  background: url('search.svg') no-repeat 10px center #fff;
+  background-size: 15px;
+  background-position: 90%;
+  border: 1px, gray;
+  border-radius: 20px;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding: 5px 30px 8px 15px;
+  font-size: 12px;
+  color: #333;
+  height: 20px;
+}
+
+/*Estilo general para la barra*/
+ul.navebar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+ul.navebar li {
+  float: left;
+}
+
+/* Estilo enlaces en la barra de navegación */
+ul.navebar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navebar li:hover {
+  background-color: whitesmoke;
+}
+
+
+ul.navebar li.desplegable {
+  display: inline-block;
+}
+
+
+ul.navebar .content-desplegable {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+ul.navebar .content-desplegable a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+/* Cambia el color del fondo del enlace cuando el mouse está sobre él en la lista desplegable */
+ul.navebar .content-desplegable a:hover {
+  background-color: #ddd;
+}
+
+  /* Muestra la lista desplegable cuando el mouse está sobre el elemento */
+ul.navebar li.desplegable:hover .content-desplegable{
+  display: block;
+}
+
+
+ul.navebar .desplegable-btn{
+  font-size: 12px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+ul.navebar .desplegable-btn img {
+  margin-left: 1px; /* Ajusta el espacio entre el texto y la imagen */
+  width: 25px;
+}
+
+
+.connect-wallet-button {
+  background: linear-gradient(to right, #4e12bd, #d33ebf); /* Cambia los colores según tus preferencias */
+  border: none;
+  color: white;
+  margin-top: 10px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  
+}
+
+/* Estilo para el ícono de Wallet en el botón */
+.wallet-icon {
+  margin-right: 10px;
+  width: 20px;
+}
+
+/* Estilo para la sección de degradado */
+.gradient-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom right, #4e12bd, #d33ebf);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  height: 480px;
+  padding-top: 20px;
+  position:relative;
+}
+  
+  /* Estilo para el texto en la sección de degradado */
+.gradient-section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 20px;
+  padding-left: 220px;
+  text-align: left;
+}
+  
+  /* Estilo para el texto pequeño en la sección de degradado */
+.gradient-section p.subtext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 30px;
+  padding-left: 220px;
+  text-align: left;
+}
+
+/* Estilo para los botones en la sección de degradado */
+.gradient-section .buttons-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 180px;
+}
+
+.gradient-section button {
+  font-size: 12px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 151px;
+}
+
+.gradient-section button img {
+  margin-right: 2px;
+}
+
+
+.explore-button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+.explore-button img{
+  height: 30px;
+}
+
+.create-button {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.create-button img{
+  height: 40px;
+}
+
+
+.gradient-section .image-container img {
+  margin-top: 30px;
+  width: 660px;
+  height: 532px;
+}
+  
+.live-header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 200px;
+  position: relative;
+}
+
+h2{
+  font-weight: bolder;
+}
+
+.h2s{
+  padding-top: 5%;
+}
+
+
+.text1{
+  color: #a5a5a5;
+  font-size: 12px;
+  margin-bottom: 30px;
+  padding-left: 200px;
+  text-align: left;
+}
+
+.text1-1{
+  background-color: whitesmoke;
+  color: #a5a5a5;
+  font-size: 12px;
+  margin-bottom: 30px;
+  padding-left: 200px;
+  text-align: left;
+}
+  
+.icon-container {
+  margin-right: 10px;
+}
+
+.icon-container img {
+  width: 30px;
+}
+  
+
+.buttons-container {
+  margin-left: auto;
+}
+  
+.round-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+  
+.round-button:hover {
+  background: linear-gradient(to right, #4e12bd, #FFC0CB);
+}
+
+.cards-wrapper{
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.card {
+  border-radius: 20px;
+  height: auto;
+  margin: 0.5em;
+  width: calc(100%/3);
+  background-color: whitesmoke;
+}
+
+.card-img-top{
+  height: 230px;
+  margin: 10px;
+  width: 220px;
+  padding-right: 15%;
+  padding-bottom: 0px;
+}
+
+.card-img-top1{
+padding-top: 50px;
+  
+}
+
+.card-title{
+font-size: 12px;
+}
+
+.Autor{
+  display: flex;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.idmagen{
+  background: rgb(83, 176, 212);
+  border: none;
+  border-radius: 50%;
+  height: 30px;
+  margin-right: 5px;
+  width: 30px;
+}
+
+.name {
+  font-size: 11px;
+  text-decoration: none;
+  color: #4e12bd;
+}
+
+.text {
+  font-size: 10px;
+  padding-left: 1px;
+  color: #a5a5a5;
+}
+
+.text2{
+  font-size: 11px;
+  padding-left: 5px;
+  color: #a5a5a5;
+}
+
+.text3 {
+  font-size: 11px;
+  padding-left: 5px;
+  color: #a5a5a5;
+}
+
+.eth-amount {
+  color: black;
+}
+
+.usd-amount {
+  color: #a5a5a5;
+}
+
+.contador-img {
+  width: 50px;
+  height: 100px;
+}
+
+
+.contador-btn {
+  background: linear-gradient(to right, #4e12bd, #d33ebf);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  bottom: -20px;
+  right:55px;
+  z-index: 1;
+  width: 120px;
+  height:27px;
+  
+}
+
+.live-header1{
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 100px;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-bottom:5px ;
+  
+}
+
+
+
+.btn-primary {
+  display: none;
+  position: absolute;
+  bottom: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color:#4e12bd;
+  color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 130px;
+  
+}
+
+.btn-primary img{
+  height: 30px;
+}
+
+
+.card:hover .btn-primary {
+  display: block;
+}
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid;
+  border-color: whitesmoke;
+  border-radius: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 5%;
+  width: 1000px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card1 {
+  width: 115px;
+  text-align: center;
+  border: 2px solid;
+  border-color: whitesmoke;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 130px;
+  margin: 0.5em;
+}
+
+.card1:hover{
+  background-color: whitesmoke;
+}
+
+
+.card1-img-top {
+  width: 115px;
+  height: 115px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: rgb(83, 176, 212);
+
+}
+
+.card1-body {
+  padding: 10px;
+}
+
+.btn-follow {
+  background: #ccc;
+  color: #000;
+  border: none;
+}
+
+
+
+
+.btn-follow {
+  font-size: 10px;
+  background: #ccc;
+  color: #000;
+  border: none;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  margin-right: 400px;
+}
+
+.btn-follow:hover {
+  color: #fff;
+  background: linear-gradient(to right, #4e12bd, #d33ebf);
+  color: white;
+  
+}
+
+.explore1-button {
+  background: linear-gradient(to right, #4e12bd, #d33ebf);
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  font-size: 12px;
+  margin-right: 200px;
+  
+}
+
+.explore1-button img{
+  height: 30px;
+}
+
+.card-titl{
+  font-size: 12px;
+  width: 100px;
+  height: 50pz;
+  margin-right: 5px;
+}
+
+.card-text{
+  font-size: 10px;
+  width: 100px;
+  height: 50pz;
+  margin-right: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.grid-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.idmagen1{
+  background: rgb(83, 176, 212);
+  border: none;
+  border-radius: 50%;
+  height: 10px;
+  margin-right: 5px;
+  width: 10px;
+}
+
+.Autor1{
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.custom-card {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.custom-card img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.custom-card-body {
+  text-align: left;
+}
+
+.contai{
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid;
+  border-color: whitesmoke;
+  border-radius: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .col-cm-4{
+    margin: auto;
+    padding: auto;
+  }
+
+  
+.card-titles {
+  font-size: 12px;
+  width: 200px;
+}
+
+.card-img-top2{
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(to right, #0e0622, #2d2579);
+}
+
+
+.newsletter-container {
+  background: linear-gradient(to right, #4e12bd, #d33ebf);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  height: 130px;
+  width: 70%;
+  margin-top: 70px;
+  margin-left: 200px;
+  top: 30px;
+  bottom: -40px;
+  right:55px;
+  z-index: 1;
+}
+
+
+.newsletter-text h3 {
+  margin-left: 50px;
+  color: white;
+}
+
+.text1-12{
+  color: #a5a5a5;
+  font-size: 12px;
+  text-align: left;}
+
+.newsletter-input {
+  display: flex;
+  gap: 10px;
+}
+
+.input-container {
+  display: flex;
+  position: relative;
+  background-color: white;
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+}
+
+.newsletter-input input {
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.Browsebutton {
+  padding: 10px 15px;
+  background: linear-gradient(to right, #4e12bd, #d33ebf);
+  color: white;
+  border: 1px solid black;
+  height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+.Browsebutton img{
+  height: 30px;
+}
+
+
+.footer{
+  padding: 80px 13% 70px;
+  background: #000;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.footer-content img{
+  height: 200px;
+  margin-left: 0px;
+}
+
+.footer-content h4{
+  color: white;
+  font-size: 12px;
+
+}
+
+.footer-content a{
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+
+}
+
+.footer-content p{
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.icons a{
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+}
+
+.icons a :hover{
+  background: linear-gradient(to right, #4e12bd, #d33ebf);
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
